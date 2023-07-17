@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Jul, 2023, 8:25:02 PM
+    Author     : Admin
+*/
+body{ background:url('https://img.freepik.com/premium-photo/food-table-top-view-free-space-your-text_187166-25767.jpg');
+            background-size:cover;
+            }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:whitesmoke;
+
+}
+div{
+    font-family:inherit;
+    letter-spacing:6px;
+    color:white;
+    font-size:45px;
+    text-align:center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+li {
+    float: left;
+    border-right: 2px solid #ccc;
+
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  font-family:fantasy;
+  color: black;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:rosybrown;
+}
+.active {
+  background-color: yellow;
+}
+
+
+
+
+

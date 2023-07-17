@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jul, 2023, 4:11:07 PM
+    Author     : Admin
+*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  color: white;
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+  color: white;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+  color: white;
+}
+
+.menu-item {
+  display: flex;
+  color: white;
+}
+
+.menu-item-image {
+  width: 50px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+  color: white;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+  color: white;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  color: white;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+  color: white;
+}
+
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+    color: white;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+  }
+
+  .menu-item-image {
+    width: 100px;
+    height: 100px;
+    color: white;
+  }
+}
+
